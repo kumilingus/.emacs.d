@@ -41,7 +41,7 @@
   (add-hook 'evil-insert-state-entry-hook 'evil-ex-nohighlight)
 
   :config
-  (evil-mode 1)
+  (evil-mode 0)
   (evil-select-search-module 'evil-search-module 'evil-search)
 
   (mapc (lambda (r) (evil-set-initial-state (car r) (cdr r)))

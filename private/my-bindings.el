@@ -32,14 +32,14 @@
       ;; Simple window navigation/manipulation
       "M-t"  'doom:tab-create
       "M-T"  'doom/tab-display
-      "M-w"  'doom/close-window-or-tab
-      "M-W"  'delete-frame
-      "M-n"  'doom/new-buffer
-      "M-N"  'doom/new-frame
-      "C-j"  'evil-window-down
-      "C-k"  'evil-window-up
-      "C-h"  'evil-window-left
-      "C-l"  'evil-window-right
+      ;;"M-w"  'doom/close-window-or-tab
+      ;;"M-W"  'delete-frame
+      ;;"M-n"  'doom/new-buffer
+      ;;"M-N"  'doom/new-frame
+      ;;"C-j"  'evil-window-down
+      ;;"C-k"  'evil-window-up
+      ;;"C-h"  'evil-window-left
+      ;;"C-l"  'evil-window-right
       "A-C-j" 'doom/evil-window-resize-d
       "A-C-k" 'doom/evil-window-resize-u
       "A-C-h" 'doom/evil-window-resize-l

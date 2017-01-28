@@ -91,5 +91,6 @@
 
       ;;; Personal settings
       my-commands
-      my-bindings)
-
+      my-bindings
+      my-config
+)
